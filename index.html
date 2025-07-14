@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Malla Nutrición y Dietética - IPCHILE</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 720px; margin: auto; padding: 20px; background: #f0f8f5; color: #2c3e50; }
+  h1 { text-align: center; color: #2E7D32; margin-bottom: 20px; }
+  h2 { border-bottom: 2px solid #4CAF50; padding-bottom: 5px; color: #2E7D32; margin-top: 30px; }
+  .ramo { margin: 6px 0; }
+  .locked { opacity: 0.5; }
+  label { cursor: pointer; }
+</style>
+</head>
+<body>
+
+<h1>Malla Curricular Nutrición y Dietética - IPCHILE</h1>
+
+<div id="semestre-1">
+  <h2>Semestre 1</h2>
+  <label class="ramo"><input type="checkbox" data-id="anatomo" /> Anatomorfología</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="bio-cel" /> Biología celular y molecular</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="quimica" /> Química</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="raz-log" /> Razonamiento lógico y matemático</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="intro-nutri" /> Introducción a la nutrición y dietética</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="com-oral" /> Comunicación oral y escrita</label><br/>
+</div>
+
+<div id="semestre-2" class="locked">
+  <h2>Semestre 2</h2>
+  <label class="ramo"><input type="checkbox" data-id="fisiol-ciclo" /> Fisiología en el ciclo vital</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="microbio" /> Microbiología e higiene de los alimentos</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="bioquim" /> Bioquímica general y de los alimentos</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="primeros-aux" /> Primeros auxilios</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="cien-alim1" /> Ciencias de los alimentos 1</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="ingles1" /> Inglés 1</label><br/>
+</div>
+
+<div id="semestre-3" class="locked">
+  <h2>Semestre 3</h2>
+  <label class="ramo"><input type="checkbox" data-id="fisiopat-ciclo" /> Fisiopatología en el ciclo vital</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="inocuidad" /> Inocuidad, calidad y seguridad alimentaria</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="nutri-bas1" /> Nutrición básica 1</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="bioestad" /> Bioestadística</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="cien-alim2" /> Ciencias de los alimentos 2</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="ingles2" /> Inglés 2</label><br/>
+</div>
+
+<div id="semestre-4" class="locked">
+  <h2>Semestre 4</h2>
+  <label class="ramo"><input type="checkbox" data-id="eval-est-nutri1" /> Evaluación del estado nutricional para el ciclo vital 1</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="farmaco" /> Farmacología</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="nutri-bas2" /> Nutrición básica 2</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="tecnicas-diet" /> Técnicas dietéticas descriptivas y aplicadas</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="bromatologia" /> Bromatología y análisis sensorial de los alimentos</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="salud-pub" /> Salud pública y epidemiológica</label><br/>
+</div>
+
+<div id="semestre-5" class="locked">
+  <h2>Semestre 5</h2>
+  <label class="ramo"><input type="checkbox" data-id="eval-est-nutri2" /> Evaluación del estado nutricional para el ciclo vital 2</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="diet-ciclo" /> Dietética en el ciclo vital</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="raz-clin" /> Razonamiento clínico en nutrición y dietética</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="cultura-gastro" /> Cultura y gastronomía</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="prod-tecnol" /> Producción y tecnología de los alimentos</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="psic-ciclo" /> Psicología del ciclo vital</label><br/>
+</div>
+
+<div id="semestre-6" class="locked">
+  <h2>Semestre 6</h2>
+  <label class="ramo"><input type="checkbox" data-id="nutri-act-fis" /> Nutrición y actividad física en el ciclo vital</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="diet-ciclo1" /> Dietoterapia en el ciclo vital 1</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="bioetica" /> Bioética profesional</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="genetica-nutri" /> Genética y nutrigenómica</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="plan-alim-nutri" /> Planificación alimentaria nutricional para servicios de alimentos colectiva</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="edu-sociologia" /> Educación, sociología y conducta</label><br/>
+</div>
+
+<div id="semestre-7" class="locked">
+  <h2>Semestre 7</h2>
+  <label class="ramo"><input type="checkbox" data-id="nutri-deportiva" /> Nutrición deportiva</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="diet-ciclo2" /> Dietoterapia en el ciclo vital 2</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="nutri-ortomolecular" /> Nutricio ortomolecular</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="nutri-comunitaria" /> Nutrición comunitaria</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="eval-proy1" /> Evaluación de proyectos 1</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="admin-gestion" /> Administración y gestión de servicios de alimentación</label><br/>
+</div>
+
+<div id="semestre-8" class="locked">
+  <h2>Semestre 8</h2>
+  <label class="ramo"><input type="checkbox" data-id="mod-int-nutri-clin" /> Módulo integrativo nutrición clínica</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="mod-int-serv-alim" /> Módulo integrativo servicios de alimentación colectiva</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="terapias-comp" /> Terapias complementarias</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="invest-nutri" /> Investigación en nutrición</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="eval-proy" /> Evaluación de proyectos</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="mod-int-nutri-comu" /> Módulo integrativo nutrición comunitaria</label><br/>
+</div>
+
+<div id="semestre-9" class="locked">
+  <h2>Semestre 9</h2>
+  <label class="ramo"><input type="checkbox" data-id="internado1" /> Internado profesional</label><br/>
+  <label class="ramo"><input type="checkbox" data-id="proy-titulo" /> Proyecto de título</label><br/>
+</div>
+
+<div id="semestre-10" class="locked">
+  <h2>Semestre 10</h2>
+  <label class="ramo"><input type="checkbox" data-id="internado2" /> Internado profesional</label><br/>
+</div>
+
+<script>
+  const checkboxes = document.querySelectorAll('input[type=checkbox]');
+
+  function updateUnlocks() {
+    const checked = new Set();
+    checkboxes.forEach(cb => {
+      if(cb.checked) checked.add(cb.dataset.id);
+    });
+
+    // Semestre 2 desbloquea si apruebas "Anatomorfología", "Biología celular y molecular", y "Química"
+    const s2Unlocked = checked.has('anatomo') && checked.has('bio-cel') && checked.has('quimica');
+    setSemesterState('semestre-2', s2Unlocked);
+
+    // Semestre 3 desbloquea si apruebas "Fisiología en el ciclo vital" y "Bioquímica general y de los alimentos"
+    const s3Unlocked = checked.has('fisiol-ciclo') && checked.has('bioquim');
+    setSemesterState('semestre-3', s3Unlocked);
+
+    // Semestre 4 desbloquea si apruebas "Fisiopatología en el ciclo vital" y "Nutrición básica 1"
+    const s4Unlocked = checked.has('fisiopat-ciclo') && checked.has('nutri-bas1');
+    setSemesterState('semestre-4', s4Unlocked);
+
+    // Semestre 5 desbloquea si apruebas "Evaluación del estado nutricional para el ciclo vital 1" y "Nutrición básica 2"
+    const s5Unlocked = checked.has('eval-est-nutri1') && checked.has('nutri-bas2');
+    setSemesterState('semestre-5', s5Unlocked);
+
+    // Semestre 6 desbloquea si apruebas "Dietética en el ciclo vital" y "Evaluación del estado nutricional para el ciclo vital 2"
+    const s6Unlocked = checked.has('diet-ciclo') && checked.has('eval-est-nutri2');
+    setSemesterState('semestre-6', s6Unlocked);
+
+    // Semestre 7 desbloquea si apruebas "Dietoterapia en el ciclo vital 1" y "Nutrición y actividad física en el ciclo vital"
+    const s7Unlocked = checked.has('diet-ciclo1') && checked.has('nutri-act-fis');
+    setSemesterState('semestre-7', s7Unlocked);
+
+    // Semestre 8 desbloquea si apruebas "Nutrición comunitaria" y "Dietoterapia en el ciclo vital 2"
+    const s8Unlocked = checked.has('nutri-comunitaria') && checked.has('diet-ciclo2');
+    setSemesterState('semestre-8', s8Unlocked);
+
+    // Semestre 9 desbloquea si apruebas "Módulo integrativo nutrición clínica" o "Módulo integrativo servicios de alimentación colectiva"
+    const s9Unlocked = checked.has('mod-int-nutri-clin') || checked.has('mod-int-serv-alim');
+    setSemesterState('semestre-9', s9Unlocked);
+
+    // Semestre 10 desbloquea si apruebas "Internado profesional" del semestre 9 y "Proyecto de título"
+    const s10Unlocked = checked.has('internado1') && checked.has('proy-titulo');
+    setSemesterState('semestre-10', s10Unlocked);
+  }
+
+  function setSemesterState(id, unlocked) {
+    const sem = document.getElementById(id);
+    sem.classList.toggle('locked', !unlocked);
+    sem.style.opacity = unlocked ? '1' : '0.5';
+    sem.querySelectorAll('input[type=checkbox]').forEach(cb => cb.disabled = !unlocked);
+  }
+
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', updateUnlocks);
+  });
+
+  updateUnlocks();
+</script>
+
+</body>
+</html>
